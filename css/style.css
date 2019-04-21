@@ -38,11 +38,9 @@ header{
 .list-inline-item{
     padding-left: 30px;
 }
-
 .active a{
    color: #9fe3e0;
 }
-
 
                                             /* HEADER END */
 
@@ -65,10 +63,10 @@ header{
     color: #787878;
     line-height: 1.556;
 }
-
 .gal{
     width: 360px;
     height: 300px;
+    padding-top: 135px;
 }
 .gal:nth-child(odd){
     background:#838383;
@@ -88,6 +86,100 @@ header{
 .gal:nth-child(n+9):nth-child(even){
     background: #dddddd;
 }
+.gal:hover{
+    background: #21bfb9!important;
+}
+.gal:hover img{
+    display: inline-block;
+}
+.gal img{
+    display: none;
+}
+
+                                                                                /* MAIN END */
+
+                                                                                /* FOOTER START */
+
+footer{
+    background: #191919;
+    padding: 100px 0 100px 0;
+    color: #797979;
+}
+footer a{
+    text-decoration: none;
+    color: #797979;
+}
+footer a:hover{
+    color: #565555;
+    text-decoration: none;
+}
+.footer_name {
+    font-family: montserrat-medium;
+    font-size: 18px;
+    color: #ffff;
+    line-height: 4;
+}
+.footer_rights{
+    font-family: nunitosans;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.f-nav_left{
+    float: left;
+}
+.f-social{
+    padding-left: 70px;
+}
+
+                                                                                /* FOOTER END */
+
+                                                                                /* ABOUT START */
+.banner{
+    background: #3e3e3e;
+    padding: 120px 0 120px 0;
+}
+.banner-name{
+    color: white;
+    font-family: montserrat-medium;
+    font-size: 38px;
+    line-height: 1.263;
+}
+.banner-prof{
+    color: #e5e5e5;
+    font-family: nunitosans;
+    font-size: 18px;
+    line-height: 1.556;
+    padding-top: 40px;
+
+}
+.numbers{
+    background: #10c9c3;
+    padding: 100px 0 100px 0;
+    font-family: montserrat-medium;
+    color: white;
+    text-transform: uppercase;
+}
+.numbers img{
+    float: left;
+    padding-top: 10px;
+
+}
+.numbers span{
+    font-size: 12px;
+    line-height: 2.5;
+    padding-left: 30px;
+}
+.about-me{
+
+}
+.about-me-left{
+    height: 570px;
+    background: #e1e1e1;
+}
 
 
 
+
+
+
+                                                                                /* ABOUT END */
