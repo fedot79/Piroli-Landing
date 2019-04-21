@@ -1,0 +1,93 @@
+@font-face {
+    font-family: montserrat-medium;
+    src: url(../fonts/montserrat-medium.ttf);
+}
+@font-face {
+    font-family: nunitosans;
+    src: url(../fonts/nunitosans/NunitoSans-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+                                         /* HEADER START */
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 40px 0 45px 0;
+}
+.list-inline a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: montserrat-medium;
+    font-size: 12px;
+    line-height: 24px;
+    color: #191919;
+}
+.list-inline a:hover{
+    color: #9fe3e0;
+}
+.list-inline-item{
+    padding-left: 30px;
+}
+
+.active a{
+   color: #9fe3e0;
+}
+
+
+                                            /* HEADER END */
+
+
+                                            /* MAIN START */
+
+.name{
+    background: #f6f6f6;
+    padding: 105px 0 100px 0;
+}
+.name h1{
+    font-family: montserrat-medium;
+    line-height: 2.211;
+
+}
+.name p{
+    padding-top: 35px;
+    font-family: nunitosans;
+    font-size: 18px;
+    color: #787878;
+    line-height: 1.556;
+}
+
+.gal{
+    width: 360px;
+    height: 300px;
+}
+.gal:nth-child(odd){
+    background:#838383;
+}
+.gal:nth-child(even){
+    background:#dddddd;
+}
+.gal:nth-child(n+5):nth-child(even){
+    background: #838383;
+}
+.gal:nth-child(n+5):nth-child(odd){
+    background: #dddddd;
+}
+.gal:nth-child(n+9):nth-child(odd){
+    background: #838383;
+}
+.gal:nth-child(n+9):nth-child(even){
+    background: #dddddd;
+}
+
+
+
